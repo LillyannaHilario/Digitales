@@ -89,4 +89,3 @@ y = awgn(p,10);
 z = qamdemod(y, M);
 z1 = (z - (M-1)/2) / M ;
 sound(z1, fcar);
-
